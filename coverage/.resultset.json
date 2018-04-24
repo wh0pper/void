@@ -387,8 +387,22 @@
         1,
         null
       ],
+      "/Users/Guest/Desktop/auth_practice/app/models/answer.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
       "/Users/Guest/Desktop/auth_practice/app/models/application_record.rb": [
         1,
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/auth_practice/app/models/question.rb": [
+        1,
+        1,
+        1,
+        null,
         1,
         null
       ],
@@ -398,16 +412,17 @@
         1,
         1,
         1,
-        null,
-        1,
-        1,
         1,
         null,
+        1,
+        5,
+        5,
+        null,
         null,
         1,
-        0,
-        0,
-        0,
+        2,
+        2,
+        1,
         null,
         null,
         null,
@@ -415,6 +430,7 @@
         null
       ],
       "/Users/Guest/Desktop/auth_practice/spec/factories.rb": [
+        1,
         1,
         1,
         1,
@@ -432,8 +448,39 @@
         1,
         1,
         null
+      ],
+      "/Users/Guest/Desktop/auth_practice/spec/models/question_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        null
+      ],
+      "/Users/Guest/Desktop/auth_practice/spec/models/user_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        2,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1524603964
+    "timestamp": 1524606051
   }
 }
