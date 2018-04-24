@@ -15,5 +15,18 @@
 //= require turbolinks
 //= require_tree .
 
-require jquery
-require bootstrap
+//=require jquery
+//=require bootstrap
+
+
+$(document).ready(function() {
+
+
+  var screams = document.getElementsByClassName('scream');
+  console.log(screams);
+  for(i = 0; i < screams.length; i++) {
+    screams[i].style.position = 'absolute';
+    screams[i].style.left = Math.random() * window.innerWidth + 'px';
+    screams[i].style.top = Math.random() * window.innerHeight + 'px';
+  }
+})
