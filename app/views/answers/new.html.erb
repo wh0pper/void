@@ -1,0 +1,5 @@
+<%= form_for [@question, @answer] do |f| %>
+  <%= f.label "answer in the form of a question" %>
+  <%= f.text_field :content %>
+  <%= f.submit "Let em hear it!!!" %>
+<% end %>

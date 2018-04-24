@@ -1,5 +1,7 @@
 <h2>question detail here</h2>
 
+<h4><%= link_to "answer in the form of a question", new_question_answer_path(@question)%></h4>
+
 <% if @question.answers.any? %>
   <h4>Here are the answers for this question</h4>
   <ul>
