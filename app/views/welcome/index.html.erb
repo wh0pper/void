@@ -1,3 +1,13 @@
-<h1>welcome page</h1>
+<h2>Welcome to <strong>Screaming into the Void-Overflow</strong></h2>
 
-<!-- <%= link_to 'sign up', signup_path%> -->
+<% if !current_user %>
+  <h4>An anti-community of developers not helping other developers. Sign in or up to submit your first scream</h4>
+<% else %>
+  <h4><%= link_to "Scream away...", scream_path %><h4>
+<% end %>
+
+<ul>
+  <% @questions.each do |q| %>
+    <li><%= q.content %></li>
+  <% end %>
+</ul>
