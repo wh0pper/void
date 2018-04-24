@@ -20,13 +20,19 @@
 
 
 $(document).ready(function() {
-
-
   var screams = document.getElementsByClassName('scream');
-  console.log(screams);
   for(i = 0; i < screams.length; i++) {
     screams[i].style.position = 'absolute';
     screams[i].style.left = Math.random() * window.innerWidth + 'px';
     screams[i].style.top = Math.random() * window.innerHeight + 'px';
   }
+
+  var answers = document.getElementsByClassName('response-scream');
+  for(i = 0; i < answers.length; i++) {
+    answers[i].style.position = 'absolute';
+    answers[i].style.left = Math.random() * window.innerWidth + 'px';
+    answers[i].style.top = Math.random() * window.innerHeight + 'px';
+  }
+
+
 })
